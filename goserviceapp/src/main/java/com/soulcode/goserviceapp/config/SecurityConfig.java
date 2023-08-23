@@ -1,4 +1,4 @@
-package com.soulcode.goserviceapp.config.config;
+package com.soulcode.goserviceapp.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -17,3 +17,4 @@ public class SecurityConfig {
         return http.build();
     }
 }
+
